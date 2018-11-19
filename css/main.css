@@ -1,0 +1,22 @@
+h1 {
+  color: #dfdfdf;
+}
+nav {
+  background-color: #000000;
+}
+footer {
+  background-color: #334285;
+}
+.secundaria {
+  background-color: #333;
+}
+.principal {
+  background-color: #000000;
+}
+nav a {
+  color: #dfdfdf;
+  text-decoration: none;
+}
+.nav-link {
+  color: #dfdfdf;
+}
