@@ -4,6 +4,7 @@
 @violeta: #6a1a8a;
 @verde:#2b913c;
 @azul:#334285;
+@cinza:#afafaf;
 
 h1{
     color:@branco;
@@ -14,7 +15,32 @@ nav{
 }
 
 footer{
-    background-color: @azul;
+    background-color: @principal;
+    img{
+        opacity: 0.7;
+    }
+    div{
+        text-align: center;  
+        color:@cinza;      
+        a{
+            // border: 1px solid @branco;
+            // padding: 3px;
+            color:@branco;
+            margin: 0 10px;
+        }
+        a:hover{
+            color:@cinza;
+        }
+        div{
+
+            div{
+                div{
+                text-align: left;
+                
+                }
+            }
+        }
+    }
 }
 
 .secundaria{
@@ -32,9 +58,90 @@ nav a{
     color:@branco;
 }
 
+.row{
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
 // body{
 //     background: @azul
 // }
+.circulo{
+    background-color: @secundaria;
+    // border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color:@cinza;
+    text-align: center;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/paralax.jpg");
+    min-height: 800px; 
+}
+
+.parallax, .parallax2{
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/paralax2.jpg");
+    
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.div-flex{
+    width: 330px;
+}
+
+h3{
+    color:@cinza;
+}
+
+.c-principal{
+    color:@principal;
+}
+.c-secundaria{
+    color:@secundaria;
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:active,
+.btn-link:disabled,
+.btn-link:focus{
+    text-decoration: none;
+}
+
+.btn-link{
+    color: @secundaria;
+}
+.btn-link:hover{
+    color:@cinza;
+}
+
+
+
 
 
 //Bebida - Institucional

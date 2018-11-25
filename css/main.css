@@ -5,7 +5,24 @@ nav {
   background-color: #000000;
 }
 footer {
-  background-color: #334285;
+  background-color: #000000;
+}
+footer img {
+  opacity: 0.7;
+}
+footer div {
+  text-align: center;
+  color: #afafaf;
+}
+footer div a {
+  color: #dfdfdf;
+  margin: 0 10px;
+}
+footer div a:hover {
+  color: #afafaf;
+}
+footer div div div div {
+  text-align: left;
 }
 .secundaria {
   background-color: #333;
@@ -19,4 +36,69 @@ nav a {
 }
 .nav-link {
   color: #dfdfdf;
+}
+.row {
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+.circulo {
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  color: #afafaf;
+  text-align: center;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/paralax.jpg");
+  min-height: 800px;
+}
+.parallax,
+.parallax2 {
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/paralax2.jpg");
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div-flex {
+  width: 330px;
+}
+h3 {
+  color: #afafaf;
+}
+.c-principal {
+  color: #000000;
+}
+.c-secundaria {
+  color: #333;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:active,
+.btn-link:disabled,
+.btn-link:focus {
+  text-decoration: none;
+}
+.btn-link {
+  color: #333;
+}
+.btn-link:hover {
+  color: #afafaf;
 }
